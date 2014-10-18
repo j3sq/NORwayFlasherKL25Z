@@ -15,29 +15,22 @@
 
 
 // Define data ports
-//#define DATA1_PORT	GPIOD
-//#define DATA1_PIN	PIND
 #define DATA1_DDR	GPIOD_PDDR
 #define DATA1_MASK	0xFFFFFF00
 
-//#define DATA2_PORT	PORTC
-//#define DATA2_PIN	PINC
+
 #define DATA2_DDR	GPIOE_PDDR
 #define DATA2_MASK	0xFFCFFFC0
 
 // Define address line ports
-//#define ADDR1_PORT	PORTF
-//#define ADDR1_PIN	PINF
 #define ADDR1_DDR	GPIOB_PDDR
 #define ADDR1_MASK	0xFFFFF0F0
 
-//#define ADDR2_PORT	PORTA
-//#define ADDR2_PIN	PINA
+
 #define ADDR2_DDR	GPIOC_PDDR
 #define ADDR2_MASK  0xFFFFFF00
 
-//#define ADDR3_PORT	PORTB
-//#define ADDR3_PIN	PINB
+
 #define ADDR3_DDR	GPIOC_PDDR
 #define ADDR3_MASK  0xFFFCC0FF
 
@@ -47,7 +40,6 @@
 #define CONT_PORT_READ	GPIOA_PDIR
 #define CONT_PORT_WRITE	GPIOA_PDOR
 #define CONT_DDR	GPIOA_PDDR
-//#define CONT_PIN	GPIOA_PDIR
 #define CONT_MASK	0xFFFCCFCF
 
 #define CONT_CE		4		// Chip Enable
