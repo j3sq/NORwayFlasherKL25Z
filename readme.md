@@ -10,7 +10,7 @@ responsibility for the consequences of your use of this software.
 This project has been ported for the FRDM-KL25Z board from hjudges NORway at https://github.com/hjudges/NORway.
 For detailed documentation and information refer to hjudges repo.
 
-USB CDC functioanlity is based on Erich Styger work.
+USB CDC functionality is based on Erich Styger work.
 
 I've ported and tested this on my slim ps3 model CECH 2004B ,DYN001 board, NOR flash Spansion S29GL128P90TFIR2.
 In theory it should work on other NOR based models but NO testing have been done. Proceed at your responsibility.
